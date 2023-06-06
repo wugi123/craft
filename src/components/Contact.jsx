@@ -7,7 +7,7 @@ import markerIcon from 'leaflet/dist/images/marker-icon.png';
 import markerShadow from 'leaflet/dist/images/marker-shadow.png';
 
 const Contact = () => {
-  const position = [-1.243044, 116.868334];
+  const position = [-1.2431282, 116.8684325];
 
   delete L.Icon.Default.prototype._getIconUrl;
   L.Icon.Default.mergeOptions({
